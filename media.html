@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="farmacia">
+    Produto1 <input id="p1" type="number"> <br />
+    produto2 <input id="p2" type="number"> <br />
+    Produto3 <input id="p3" type="number"> <br />
+    Produto4 <input id="p4" type="number"> <br />
+    <button onclick="comprar()">Compra</button>
+ </div>
+
+  <script>
+
+    var personagem{
+      nome:"Ester"
+      cabelos:"casatanho claro"
+      altura:"1,63"
+      
+
+    }
+    function comprar(){
+   
+   let p1 = parseFloat(document.getElementById("p1").value);
+ 
+   let p2 = parseFloat(document.getElementById("p2").value);
+   let p3 = parseFloat(document.getElementById("p3").value);
+   let p4 = parseFloat(document.getElementById("p4").value);
+ 
+    let valor = p1 + p2 + p3 ;
+    let ds = p4/2;
+    let total= valor + ds;
+
+      if(valor){
+        alert("O valor total da sua compra é de " + valor + " na compra do quarto tera 50% de desconto ")
+      }else{
+        alerte("Total " + total + " item 4 você ganhou 50% de desconto ")
+      }
+    }
+ 
+   console.log(Object.values(nome))
+    
+  </script>
+</body>
+</html>
