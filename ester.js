@@ -10,20 +10,6 @@
  // e.preventDefault();
  // console.log("click")
 //})
-function media(){
-  let av1 = parseFloat(document.getElementById("nota1").value);
-  let av2 = parseFloat(document.getElementById("nota2").value);
-  let av3 = parseFloat(document.getElementById("nota3").value);
-
-  let media = (av1 + av2 + av3)/3 ;
-
-   if(media >= 6)
-     alert("O aluno está aprovado " + media);
-   else if (media <= 5)
-     alert("O aluno está reprovado" + media);
-   else
-     alert("O aluno está de recuperação" + media);
- }
 
 
  
